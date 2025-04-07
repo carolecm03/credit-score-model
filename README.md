@@ -21,7 +21,7 @@ Se definieron reglas para clientes con y sin historial, considerando perfiles de
 ## 🔗 Anexos
 - [Notebook del Proyecto](notebooks/Proyecto_CreditScore_Limite_Final_v7.ipynb)
 - [Reporte en Word](Reporte_Final_Caroline_Cardenas.docx)
-- [Diccionario de Variables](anexos/descripcion_variables.xlsx)
+- [Diccionario de Variables](descripcion_variables.xlsx)
 
 ---
 **Autor:** Caroline Cárdenas  
