@@ -5,13 +5,6 @@ Este repositorio contiene el desarrollo del proyecto final de la materia Modelos
 ## 📌 Objetivo
 Predecir el puntaje crediticio (`credit_score`) de un cliente utilizando variables demográficas y financieras, e implementar reglas de negocio para asignar límites de tarjeta de crédito.
 
-## 📁 Estructura del Proyecto
-- `/data`: base de datos utilizada.
-- `/notebooks`: análisis completo con limpieza, EDA, modelado, y predicción.
-- `/scripts`: funciones en Python del modelo (opcional).
-- `/visualizations`: gráficas de análisis exploratorio.
-- `/anexos`: documentación de variables y reglas de crédito.
-
 ## 🧠 Algoritmo Principal
 Modelo de Random Forest Regressor con evaluación por R², MAE y RMSE.
 
@@ -19,9 +12,32 @@ Modelo de Random Forest Regressor con evaluación por R², MAE y RMSE.
 Se definieron reglas para clientes con y sin historial, considerando perfiles de riesgo y variables como ingreso, deuda, edad y número de tarjetas.
 
 ## 🔗 Anexos
-- [Notebook del Proyecto](notebooks/Proyecto_CreditScore_Limite_Final_v7.ipynb)
-- [Reporte en Word](Reporte_Final_Caroline_Cardenas.docx)
-- [Diccionario de Variables](descripcion_variables.xlsx)
+- [Base de Datos](users_data_credit_cards.csv)
+- [Descripción de columnas]
+  - ## 🧾 Diccionario de Datos - users_data_credit_cards.csv
+
+| Columna               | Descripción                                                                 |
+|-----------------------|------------------------------------------------------------------------------|
+| `id`                  | Identificador único del cliente                                              |
+| `current_age`         | Edad actual del cliente (en años)                                            |
+| `retirement_age`      | Edad estimada de retiro                                                      |
+| `years_to_retirement` | Años restantes para la jubilación (retirement_age - current_age)            |
+| `birth_year`          | Año de nacimiento del cliente                                                |
+| `birth_month`         | Mes de nacimiento del cliente                                                |
+| `gender`              | Género del cliente (0 = Masculino, 1 = Femenino)                             |
+| `yearly_income`       | Ingreso anual del cliente (en dólares)                                       |
+| `per_capita_income`   | Ingreso per cápita por hogar (en dólares)                                    |
+| `total_debt`          | Total de deuda acumulada (en dólares)                                        |
+| `num_credit_cards`    | Número total de tarjetas de crédito activas                                  |
+| `credit_score`        | Puntaje crediticio real del cliente                                          |
+| `predicted_score`     | Puntaje crediticio estimado por el modelo de regresión                       |
+| `debt_to_income_ratio`| Relación entre deuda total e ingreso anual                                   |
+| `limite_tarjeta`      | Límite de crédito asignado según reglas de negocio y riesgo financiero       |
+
+- [Análisis Descriptivo](Proyecto_CreditScore_Limite_Final.ipynb)
+- [Análisis Predictivo](Proyecto_CreditScore_Limite_Final.ipynb)
+- [Reporte en Word](Reporte_Final_Caroline_Cardenas_Completo.docx)
+
 
 ---
 **Autor:** Caroline Cárdenas  
