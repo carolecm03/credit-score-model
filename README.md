@@ -13,8 +13,7 @@ Se definieron reglas para clientes con y sin historial, considerando perfiles de
 
 ## 🔗 Anexos
 - [Base de Datos](users_data_credit_cards.csv)
-- [Descripción de columnas]
-  - ## 🧾 Diccionario de Datos - users_data_credit_cards.csv
+- ####🧾 Diccionario de Datos - users_data_credit_cards.csv
 
 | Columna               | Descripción                                                                 |
 |-----------------------|------------------------------------------------------------------------------|
